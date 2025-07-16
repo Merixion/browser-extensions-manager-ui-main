@@ -1,0 +1,30 @@
+.Cards{
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  
+  gap: 20px;
+}
+
+.Card{
+  background: hsl(226, 25%, 17%);
+  border: 2px solid hsl(225, 23%, 24%);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.Card img{
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+
+.InscriptionsCard{
+  font-size: 13;
+}
+
+.InputUsers{
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,5 +1,10 @@
 import styles from './Extensions.module.css';
 export function Extensions() {
+
+	function FilterArray({cards}){
+		return cards.fillterc
+	}
+
 	return (
 		<article>
 			<section className={styles.Extensions}>
@@ -19,8 +24,8 @@ export function Extensions() {
 				<h1>Extensions List</h1>
 				<div className={styles.FilterCards}>
 					<button>All</button>
-					<button>Active</button>
-					<button>Inactive</button>
+					<button value={1}>Active</button>
+					<button value={2}>Inactive</button>
 				</div>
 			</section>
 		</article>
